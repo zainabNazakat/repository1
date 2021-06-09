@@ -1,1 +1,21 @@
+lECTURE 6 CODE
+
+[
+ public void Call(View view){
+            Uri uri = Uri.parse("tel:");
+            Intent intent = new Intent(Intent.ACTION_DIAL, uri);
+            startActivity(intent);
+        }
+
+
+        public void showWebsite(View view )
+        {
+            Uri uri = Uri.parse("http://www.online.edu.pk");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        }
+]
+
+
+
 
